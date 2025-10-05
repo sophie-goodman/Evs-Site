@@ -9,18 +9,18 @@ import axios from 'axios';
 
 export default function projects() {
     //const [artworks, setArtworks] = useState([]);
-    const base_api = 'http://localhost:1337/api/artworks'
+    //const base_api = 'http://localhost:1337/api/artworks'
 
-    console.log("trying to fetch data");
+    //console.log("trying to fetch data");
     
-    useEffect(() => {
-      axios.get(base_api)
-      .then((response) => 
-        console.log("fetched data", response.data))
-      .catch((error) => {
-       console.error("Error fetching artworks", error);
-      });
-    }, []);
+    //useEffect(() => {
+     // axios.get(base_api)
+      //.then((response) => 
+      //  console.log("fetched data", response.data))
+     // .catch((error) => {
+     //  console.error("Error fetching artworks", error);
+    //  });
+   // }, []);
 
 
 
