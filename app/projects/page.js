@@ -8,7 +8,7 @@ import axios from 'axios';
 
 
 export default function projects() {
-    const [artworks, setArtworks] = useState([]);
+    //const [artworks, setArtworks] = useState([]);
     const base_api = 'http://localhost:1337/api/artworks'
 
     console.log("trying to fetch data");
