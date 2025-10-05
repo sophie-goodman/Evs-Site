@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'HYGothic-Extra';
-  src: url('/public/HYGothic-Extra.ttf') format('truetype');
+  src: url('/HYGothic-Extra.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
