@@ -8,7 +8,7 @@ export default function about() {
       <main className="bg-[#F4F5E8]">
 
       {/* Name Section */}
-      <div className="absolute right-0 top-[3px] font-[HYGothic-Extra] text-[7vh]">
+      <div className="absolute right-0 top-[3px] text-[7vh]">
         EVAN SAGMAN
       </div>
 
@@ -16,19 +16,19 @@ export default function about() {
       <div className="absolute left-[3vh] flex flex-col justify-around items-start h-[25vh]">
         <div>
           <Link href="/shop"
-            className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+            className="text-black text-[3vw] no-underline hover:underline">
             SHOP
           </Link>
         </div>
         <div>
           <Link href="/"
-            className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+            className="text-black text-[3vw] no-underline hover:underline">
             HOME
           </Link>
         </div>
         <div>
           <Link href="/projects"
-            className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+            className="text-black text-[3vw] no-underline hover:underline">
             PROJECTS
           </Link>
         </div>

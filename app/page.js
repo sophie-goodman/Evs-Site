@@ -20,7 +20,7 @@ export default function Home() {
           </Link>
         </div>
         <div>
-          <Link href="/projects" className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+          <Link href="/projects" className="text-black text-[3vw] no-underline hover:underline">
             PROJECTS
           </Link>
         </div>
@@ -28,9 +28,9 @@ export default function Home() {
       </div>
 
       <div className="relative top-[200px] max-w-[60vw] flex flex-col items-center">
-        <div className="text-[#C61D15] text-[6vw] font-[HYGothic-Extra]">EVAN SAGMAN</div>
+        <div className="text-[#C61D15] text-[6vw]">EVAN SAGMAN</div>
 
-        <div className="flex flex-col items-center font-[HYGothic-Extra] text-[2vh]">
+        <div className="flex flex-col items-center text-[2vh]">
           <div>INSTALLATION</div>
           <div>SCULPTURE</div>
           <div>PAINTING</div>
@@ -49,7 +49,7 @@ export default function Home() {
       </div>
 
     
-      <div className="fixed bottom-1 text-sm font-[HYGothic-Extra] left-1">
+      <div className="fixed bottom-1 text-sm left-1">
         <div className="phone">416-881-2344</div>
         <div className="insta">@TruckersKiss</div>
         <div className="email">ESAGMAN@INFO.COM</div>
