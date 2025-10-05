@@ -1,7 +1,6 @@
 export default function shop() {
     return (
-      <div>
-        <h1>About Page</h1>
+      <div className='flexbox'>COMING SOON
       </div>
     );
   }

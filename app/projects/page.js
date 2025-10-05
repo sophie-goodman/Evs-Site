@@ -1,9 +1,31 @@
+"use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import axios from 'axios';
 
 
+
+
 export default function projects() {
+    const [artworks, setArtworks] = useState([]);
+    const base_api = 'http://localhost:1337/api/artworks'
+
+    console.log("trying to fetch data");
+    
+    useEffect(() => {
+      axios.get(base_api)
+      .then((response) => 
+        console.log("fetched data", response.data))
+      .catch((error) => {
+       console.error("Error fetching artworks", error);
+      });
+    }, []);
+
+
+
+
+
     return (
       
       <main className="bg-[#F4F5E8]">
@@ -41,7 +63,6 @@ export default function projects() {
       <div className="flex justify-center items-center h-screen">
       <hr className="absolute bg-[#C61D15] w-[97vw] h-[1.5] my-4 top-[36%] border-none"></hr>
       </div>
-
 
 
 

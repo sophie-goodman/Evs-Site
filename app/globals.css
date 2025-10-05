@@ -1,4 +1,3 @@
-@import url('https://c.webfontfree.com/c.js?f=HYGothic-Extra');
 @import "tailwindcss";
 
 
@@ -17,6 +16,13 @@
     --background: #F4F5E8;
     --foreground: #171717;
   }
+}
+
+@font-face {
+  font-family: 'HYGothic-Extra';
+  src: url('/public/HYGothic-Extra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
