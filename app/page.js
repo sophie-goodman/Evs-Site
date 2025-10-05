@@ -10,12 +10,12 @@ export default function Home() {
       
       <div className="flex justify-around w-[50vw] mt-5">
         <div>
-          <Link href="/shop" className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+          <Link href="/shop" className="text-black text-[3vw] no-underline hover:underline">
             CV
           </Link>
         </div>
         <div>
-          <Link href="/about" className="text-black text-[3vw] font-[HYGothic-Extra] no-underline hover:underline">
+          <Link href="/about" className="text-black text-[3vw] no-underline hover:underline">
             ABOUT
           </Link>
         </div>
