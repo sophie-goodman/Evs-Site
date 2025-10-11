@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sculpture-collections",
+  "info": {
+    "singularName": "sculpture-collection",
+    "pluralName": "sculpture-collections",
+    "displayName": "Sculpture Collection"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "artPieces": {
+      "type": "component",
+      "component": "art.art-piece",
+      "repeatable": true
+    }
+  }
+}

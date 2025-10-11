@@ -17,7 +17,7 @@ export default function about() {
         <div>
           <Link href="/shop"
             className="text-black text-[3vw] no-underline hover:underline">
-            SHOP
+            CV
           </Link>
         </div>
         <div>

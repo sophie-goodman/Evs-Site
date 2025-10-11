@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drawing-collections",
+  "info": {
+    "singularName": "drawing-collection",
+    "pluralName": "drawing-collections",
+    "displayName": "Drawing Collection"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "artPieces": {
+      "type": "component",
+      "component": "art.art-piece",
+      "repeatable": true
+    }
+  }
+}
