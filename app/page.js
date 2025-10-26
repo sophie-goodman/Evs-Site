@@ -3,64 +3,55 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="bg-[#F4F5E8] flex flex-col gap-8 row-start-2 items-center sm:items-start">
-      
-      <div className="bg-[#F4F5E8] cursor-custom">
-      
-      <div className="flex justify-around w-[50vw] mt-5">
-        <div>
-          <Link href="/shop" className="text-black text-[3vw] no-underline hover:underline">
-            CV
-          </Link>
-        </div>
-        <div>
-          <Link href="/about" className="text-black text-[3vw] no-underline hover:underline">
-            ABOUT
-          </Link>
-        </div>
-        <div>
-          <Link href="/projects" className="text-black text-[3vw] no-underline hover:underline">
-            PROJECTS
-          </Link>
-        </div>
-      </div>
-      </div>
+    <main className="bg-[#F4F5E8] min-h-screen flex flex-col md:flex-row">
+      {/* LEFT SIDE */}
+      <div className="flex flex-col justify-between items-center md:items-start w-full md:w-1/2 p-6 md:p-12">
+        {/* MENU BAR */}
+        <nav className="flex justify-around md:space-x-12 w-full text-[6vw] md:text-[3vw] text-black">
+          <Link href="/CV" className="hover:underline">CV</Link>
+          <Link href="/about" className="hover:underline">ABOUT</Link>
+          <Link href="/projects" className="hover:underline">PROJECTS</Link>
+        </nav>
 
-      <div className="relative top-[200px] max-w-[60vw] flex flex-col items-center">
-        <div className="text-[#C61D15] text-[6vw]">EVAN SAGMAN</div>
+        {/* NAME & CATEGORIES */}
+        <div className="flex flex-col items-center text-center mt-16 md:mt-32">
+          <h1 className="text-[#C61D15] text-[10vw] md:text-[5vw] font-semibold mb-4">
+            EVAN SAGMAN
+          </h1>
+          <div className="text-[4vw] md:text-[1.2vw] leading-relaxed tracking-wide">
+            <div>INSTALLATION</div>
+            <div>SCULPTURE</div>
+            <div>PAINTING</div>
+            <div>DRAWING</div>
+            <div>JEWELRY</div>
+          </div>
+        </div>
 
-        <div className="flex flex-col items-center text-[2vh]">
-          <div>INSTALLATION</div>
-          <div>SCULPTURE</div>
-          <div>PAINTING</div>
-          <div>DRAWING</div>
-          <div>JEWELRY</div>
+        {/* CONTACT INFO (desktop bottom) */}
+        <div className="hidden md:block md:mt-25 md:ml-[-1rem] text-sm text-gray-700">
+          <div>416-881-2344</div>
+          <div>@TruckersKiss</div>
+          <div>ESAGMAN@INFO.COM</div>
         </div>
       </div>
 
-    
-      <div className="absolute top-0 right-0 w-[50vw] h-screen">
-        <Image 
-        src="/thumbnail_IMG_5533.jpg" 
-        alt="Art Thumbnail" 
-        fill
-        className="fill object-cover w-[100%]" />
+      {/* RIGHT SIDE IMAGE */}
+      <div className="relative w-full md:w-1/2 h-[40vh] md:h-screen">
+        <Image
+          src="/thumbnail_IMG_5533.jpg"
+          alt="Art Thumbnail"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
 
-    
-      <div className="fixed bottom-1 text-sm left-1">
-        <div className="phone">416-881-2344</div>
-        <div className="insta">@TruckersKiss</div>
-        <div className="email">ESAGMAN@INFO.COM</div>
+      {/* CONTACT INFO (mobile bottom) */}
+      <div className="block md:hidden text-center mt-6 mb-4 text-sm text-gray-700">
+        <div>416-881-2344</div>
+        <div>@TruckersKiss</div>
+        <div>ESAGMAN@INFO.COM</div>
       </div>
-
-
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        
-      
-      </footer>
-    </div>
+    </main>
   );
 }
