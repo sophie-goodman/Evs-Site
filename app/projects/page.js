@@ -82,7 +82,7 @@ export default function Projects() {
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
             <p>Exploring portraiture of the intangible through minimalist form, questions arise. Is it 
-              possible to find a balance between one’s interior world and the chaos that surrounds 
+              possible to find a balance between one&#39;s interior world and the chaos that surrounds 
               them? </p>
               </div>
               </div>
@@ -105,7 +105,7 @@ export default function Projects() {
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
           <p>“a pain in the back left of my neck has been there for days. i run on the elliptical and in my 
-            mind's eye i see the beginning and end of the universe. i see it in my boyfriend’s eyes too. i 
+            mind&#39;s eye i see the beginning and end of the universe. i see it in my boyfriend&#39;s eyes too. i 
             watch the candlelight dance in his irises. While i run, i think of god and beer. sweat drips 
             from my forehead down my nose onto the sleek metal of the machine which moves with 
             me. Adonai or Allah, mayhap Buddha or Vishnu. most likely some amalgamation of all the 
@@ -150,7 +150,7 @@ export default function Projects() {
             />
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
-            <p>Morality becomes blurred in times of survival. We do what we can to protect what’s 
+            <p>Morality becomes blurred in times of survival. We do what we can to protect what&#39;s 
               important to us. </p>
             </div>
           </div>
