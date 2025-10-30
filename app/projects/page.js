@@ -134,7 +134,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Side 1 (Cope through prayer), 2024</div>
+            <div>Side 2 (Who hears them), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
