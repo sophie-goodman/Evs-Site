@@ -212,7 +212,7 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 3, the more you say it the more they'll believe you), 2025</div>
+            <div>Remnants (Accumulation 3, the more you say it the more they&#39;ll believe you), 2025</div>
             <div>Found Plywood, Indelible Ink, Staple</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
