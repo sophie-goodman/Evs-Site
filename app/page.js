@@ -15,23 +15,24 @@ export default function Home() {
 
         {/* NAME & CATEGORIES */}
         <div className="flex flex-col items-center text-center mt-16 md:mt-32">
+          <div classname='flex flex-col items-center text-center mt-16 md:mt-32'>
           <h1 className="text-[#C61D15] text-[10vw] md:text-[5vw] font-semibold mb-4">
             EVAN SAGMAN
           </h1>
           <div className="text-[4vw] md:text-[1.2vw] leading-relaxed tracking-wide">
             <div>INSTALLATION</div>
+            <div>PHOTOGRAPHY</div>
             <div>SCULPTURE</div>
             <div>PAINTING</div>
             <div>DRAWING</div>
-            <div>JEWELRY</div>
           </div>
+        </div>
         </div>
 
         {/* CONTACT INFO (desktop bottom) */}
         <div className="hidden md:block md:mt-25 md:ml-[-1rem] text-sm text-gray-700">
-          <div>416-881-2344</div>
-          <div>@TruckersKiss</div>
-          <div>ESAGMAN@INFO.COM</div>
+          <div>@truckerskiss</div>
+          <div>evanlwsgn@gmail.com</div>
         </div>
       </div>
 
@@ -48,9 +49,8 @@ export default function Home() {
 
       {/* CONTACT INFO (mobile bottom) */}
       <div className="block md:hidden text-center mt-6 mb-4 text-sm text-gray-700">
-        <div>416-881-2344</div>
-        <div>@TruckersKiss</div>
-        <div>ESAGMAN@INFO.COM</div>
+        <div>@truckerskiss</div>
+        <div>evanlwsgn@gmail.com</div>
       </div>
     </main>
   );

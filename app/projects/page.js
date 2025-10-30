@@ -34,8 +34,199 @@ export default function Projects() {
       </section>
 
       {/* ARTWORK GRID */}
+
       <section className="w-full flex justify-center mt-10 mb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl px-6 font-thin text-sm">
+          
+          {/* Artwork 1 */}
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 8, 2025</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 8, self).jpeg"
+              alt="Intimacy 8"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 7, 2025</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 7.jpg"
+              alt="Intimacy 7"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 6, 2025</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 6.jpg"
+              alt="Intimacy 6"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 5, 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 5).jpg"
+              alt="Intimacy 5"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 4, 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 4).jpg"
+              alt="Intimacy 4"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 3, 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 3, Smoker).jpg"
+              alt="Intimacy 3"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 2, 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled Intimacy (2).jpeg"
+              alt="Intimacy 2"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+          
+          
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Intimacy 1, 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/UntitiledIntimacy (1).jpeg"
+              alt="Intimacy 1"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className="flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div> Remnants (Accumulation 1, Twigs Painkillers From April), 2025</div>
+            <div>Found Plywood, White Wall Paint, Buprenorphine Syringes, Buprenorphine Residues, Weld Bond Glue</div>
+            
+            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            <Image
+            src="/assets/Remnants (Accumulation 1, Twig's Painkillers From April).jpeg"
+              alt="Remnants 1"
+              width={400}
+              height={600}
+              className="w-full h-auto object-cover mt-auto mt-auto"
+            />
+              </div>
+          </div>
+
+          <div className="flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
+            <div>Floral wire, Acrylic Ink, Water, Recycled Cardboard, Tape </div>
+            
+            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            <Image
+            src="/assets/Remnants (Accumulation 2).jpeg"
+              alt="Remnants 2"
+              width={400}
+              height={600}
+              className="w-full h-auto object-cover mt-auto mt-auto"
+            />
+              </div>
+          </div>
+
+          <div className="flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
+            <div>Floral wire, Acrylic Ink, Water, Recycled Cardboard, Tape </div>
+            
+            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            <Image
+            src="/assets/Remnants (Accumulation 3).jpeg"
+              alt="Remnants 3"
+              width={400}
+              height={600}
+              className="w-full h-auto object-cover mt-auto mt-auto"
+            />
+              </div>
+          </div>
+
+          <div className="flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Remnants (Accumulation 3, the more you say it the more they'll believe you), 2025</div>
+            <div>Found Plywood, Indelible Ink, Staple</div>
+            
+            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            <Image
+            src="/assets/Remnants (Accumulation 4).jpeg"
+              alt="Remnants 3"
+              width={400}
+              height={600}
+              className="w-full h-auto object-cover mt-auto mt-auto"
+            />
+              </div>
+          </div>
+
+
           
           {/* Artwork 1 */}
           <div className=" flex flex-col h-full tracking-wide">
@@ -44,7 +235,7 @@ export default function Projects() {
             <div>Upcycled Wood</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/img_0282.jpeg"
+              src="/assets/IMG_0282.jpeg"
               alt="New Walls Bleed"
               width={400}
               height={600}
@@ -165,7 +356,7 @@ export default function Projects() {
             
             <div className="group relative mt-auto">
             <Image
-              src="/assets/img_6939.jpeg"
+              src="/assets/IMG_6939.jpeg"
               alt="Strain, Equilibrium"
               width={400}
               height={600}

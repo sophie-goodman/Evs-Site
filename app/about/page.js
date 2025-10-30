@@ -77,9 +77,8 @@ export default function about() {
 
 
       <div className="md:fixed md:bottom-1 md:left-2 text-sm text-left px-4 mt-10 md:mt-0">
-        <div className="phone">416-881-2344</div>
-        <div className="insta">@TruckersKiss</div>
-        <div className="email">ESAGMAN@INFO.COM</div>
+        <div className="insta">@truckerskiss</div>
+        <div className="email">evanlwsgn@gmail.com</div>
       </div>
 
     </main>

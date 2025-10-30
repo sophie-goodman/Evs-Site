@@ -18,9 +18,9 @@ export default function CV() {
         </h1>
       </header>
 
-    <div className="pt-20 flex flex-col  w-full md:items-center justify-left min-h-screen">
+    <div className="pt-20 flex flex-col  w-full md:items-center align-text-left justify-left min-h-screen">
 
-
+    <div className="w-full md:w-1/2 text-start">
     <div className="pb-3 p-2 underline">
       EXHIBITIONS
     </div>
@@ -89,6 +89,8 @@ export default function CV() {
 
     </div>
 
+    </div>
+
 
 
 
@@ -97,13 +99,3 @@ export default function CV() {
 
   );
 }
-
-
-
-
-//export default function shop() {
- //   return (
-  //    <div className='flexbox'>COMING SOON
-  //    </div>
- //   );
- // }
