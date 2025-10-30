@@ -42,7 +42,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 8, 2025</div>
+            <div>Untitled (Intimacy 8), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -57,11 +57,11 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 7, 2025</div>
+            <div>Untitled (Intimacy 7), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/Untitled (Intimacy 7.jpg"
+              src="/assets/Untitled (Intimacy 7.JPG"
               alt="Intimacy 7"
               width={200}
               height={300}
@@ -72,11 +72,11 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 6, 2025</div>
+            <div>Untitled (Intimacy 6), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/Untitled (Intimacy 6.jpg"
+              src="/assets/Untitled (Intimacy 6.JPG"
               alt="Intimacy 6"
               width={200}
               height={300}
@@ -87,11 +87,11 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 5, 2024</div>
+            <div>Untitled (Intimacy 5), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/Untitled (Intimacy 5).jpg"
+              src="/assets/Untitled (Intimacy 5).JPG"
               alt="Intimacy 5"
               width={200}
               height={300}
@@ -103,11 +103,11 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 4, 2024</div>
+            <div>Untitled (Intimacy 4), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/Untitled (Intimacy 4).jpg"
+              src="/assets/Untitled (Intimacy 4).JPG"
               alt="Intimacy 4"
               width={200}
               height={300}
@@ -118,11 +118,41 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 3, 2024</div>
+            <div>Side 1 (Cope through prayer), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
-              src="/assets/Untitled (Intimacy 3, Smoker).jpg"
+              src="/assets/side 1(cope through prayer).JPG"
+              alt="Side 1 (cope through prayer)"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Side 1 (Cope through prayer), 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/DSCN2080.JPG"
+              alt="Side 2 (Who hears them)"
+              width={200}
+              height={300}
+              className="w-full h-auto object-cover mt-auto"
+            />
+          </div>
+          </div>
+
+          <div className=" flex flex-col h-full tracking-wide">
+            <div className="font-medium">Evan Sagman</div>
+            <div>Untitled (Intimacy 3), 2024</div>
+            <div>Steel Wire</div>
+            <div className="group relative mt-auto">
+            <Image
+              src="/assets/Untitled (Intimacy 3, Smoker).JPG"
               alt="Intimacy 3"
               width={200}
               height={300}
@@ -133,8 +163,8 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 2, 2024</div>
-            <div>Steel Wire</div>
+            <div>Untitled (Intimacy 2), 2024</div>
+            <div>Steel Wire, Steel Sheet, Steel Tube</div>
             <div className="group relative mt-auto">
             <Image
               src="/assets/Untitled Intimacy (2).jpeg"
@@ -149,7 +179,7 @@ export default function Projects() {
           
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Intimacy 1, 2024</div>
+            <div>Untitled (Intimacy 1), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image

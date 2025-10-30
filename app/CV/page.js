@@ -27,7 +27,7 @@ export default function CV() {
 
     <div className="p-2">
     Sculpture Expo, 2025 
-    <p>Trafalgar Memorial Park, 120 Oak Park Blvd, Oakville, ON L6H 0E3</p>
+    <p>Gallery 1313, 1313 Queen St W, Toronto, ON M6K 1L8 </p>
     </div>
 
     <div className="p-2">
