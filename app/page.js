@@ -25,7 +25,6 @@ export default function Home() {
           </h1>
           <div className="text-[4vw] md:text-[1.2vw] leading-relaxed tracking-wide">
             <div>INSTALLATION</div>
-            <div>PHOTOGRAPHY</div>
             <div>SCULPTURE</div>
             <div>PAINTING</div>
             <div>DRAWING</div>
