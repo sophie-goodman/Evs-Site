@@ -230,8 +230,8 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
-            <div>Floral wire, Acrylic Ink, Water, Recycled Cardboard, Tape </div>
+            <div>Remnants (Accumulation 3, the more you say it the more they'll believe you) , 2025</div>
+            <div>Found Plywood, Indelible Ink, Staple</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
@@ -246,8 +246,9 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 3, the more you say it the more they&#39;ll believe you), 2025</div>
-            <div>Found Plywood, Indelible Ink, Staple</div>
+            <div>Remnants (Accumulation 4, textures of miscommunication), 2025</div>
+            <div>Found Particle Board, Deteriorating Inner Lining Of A Harley Davidson Rain Jacket Given As A Gift From A Now Estranged 
+Friend, Weld Bond Glue</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
