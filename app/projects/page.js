@@ -2,6 +2,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Evan Sagman | Projecs"
+};
+
 
 export default function Projects() {
   return (

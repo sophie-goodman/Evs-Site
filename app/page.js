@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Evan Sagman | Home"
+};
+
 export default function Home() {
   return (
     <main className="bg-[#F4F5E8] min-h-screen flex flex-col md:flex-row">

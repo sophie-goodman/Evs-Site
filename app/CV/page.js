@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Evan Sagman | CV"
+};
+
 export default function CV() {
 
   return (

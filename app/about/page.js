@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Evan Sagman | About"
+};
+
 
 
 export default function about() {
