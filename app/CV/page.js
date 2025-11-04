@@ -11,7 +11,7 @@ export default function CV() {
     <header className="flex flex-col md:flex-row justify-between items-center md:items-start w-full px-6 md:px-12 pt-6">
         {/* LEFT SIDE MENU */}
         <nav className="flex content-center justify-between w-full md:flex-col items-center md:items-start md:w-auto md:space-y-2.5 text-[5vw] md:text-[3vw] text-black">
-          <Link href="/projects" className="hover:underline">PROJECTS</Link>
+          <Link href="/portfolio" className="hover:underline">PORTFOLIO</Link>
           <Link href="/" className="hover:underline">HOME</Link>
           <Link href="/about" className="hover:underline">ABOUT</Link>
         </nav>
@@ -28,6 +28,12 @@ export default function CV() {
     <div className="pb-3 p-2 underline">
       EXHIBITIONS
     </div>
+
+    <div className="p-2">
+    Queer Creative Processes and Ecologies, 2025 
+    <p>Graduate Gallery, 205 Richmond Street West </p>
+    </div>
+
 
     <div className="p-2">
     Sculpture Expo, 2025 

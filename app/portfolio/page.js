@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 
-export default function Projects() {
+export default function Portfolio() {
   return (
     <main className="bg-[#F4F5E8] min-h-screen flex flex-col">
       {/* HEADER SECTION */}
@@ -43,7 +43,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 8), 2025</div>
+            <div className="font-style: italic">Untitled (Intimacy 8), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -58,7 +58,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 7), 2025</div>
+            <div className="font-style: italic">Untitled (Intimacy 7), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -73,7 +73,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 6), 2025</div>
+            <div className="font-style: italic">Untitled (Intimacy 6), 2025</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -88,7 +88,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 5), 2024</div>
+            <div className="font-style: italic">Untitled (Intimacy 5), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -104,7 +104,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 4), 2024</div>
+            <div className="font-style: italic">Untitled (Intimacy 4), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -119,7 +119,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Side 1 (Cope through prayer), 2024</div>
+            <div className="font-style: italic">Side 1 (Cope through prayer), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -134,7 +134,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Side 2 (Who hears them), 2024</div>
+            <div className="font-style: italic">Side 2 (Who hears them), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -149,7 +149,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 3), 2024</div>
+            <div className="font-style: italic">Untitled (Intimacy 3), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -164,7 +164,7 @@ export default function Projects() {
 
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 2), 2024</div>
+            <div className="font-style: italic">Untitled (Intimacy 2), 2024</div>
             <div>Steel Wire, Steel Sheet, Steel Tube</div>
             <div className="group relative mt-auto">
             <Image
@@ -180,7 +180,7 @@ export default function Projects() {
           
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Untitled (Intimacy 1), 2024</div>
+            <div className="font-style: italic">Untitled (Intimacy 1), 2024</div>
             <div>Steel Wire</div>
             <div className="group relative mt-auto">
             <Image
@@ -195,7 +195,7 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div> Remnants (Accumulation 1, Twigs Painkillers From April), 2025</div>
+            <div className="font-style: italic"> Remnants (Accumulation 1, Twigs Painkillers From April), 2025</div>
             <div>Found Plywood, White Wall Paint, Buprenorphine Syringes, Buprenorphine Residues, Weld Bond Glue</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
@@ -211,7 +211,7 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
+            <div className="font-style: italic">Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
             <div>Floral wire, Acrylic Ink, Water, Recycled Cardboard, Tape </div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
@@ -227,7 +227,7 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 3, the more you say it the more they&#39;ll believe you) , 2025</div>
+            <div className="font-style: italic">Remnants (Accumulation 3, the more you say it the more they&#39;ll believe you) , 2025</div>
             <div>Found Plywood, Indelible Ink, Staple</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
@@ -243,7 +243,7 @@ export default function Projects() {
 
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Remnants (Accumulation 4, textures of miscommunication), 2025</div>
+            <div className="font-style: italic">Remnants (Accumulation 4, textures of miscommunication), 2025</div>
             <div>Found Particle Board, Deteriorating Inner Lining Of A Harley Davidson Rain Jacket Given As A Gift From A Now Estranged 
 Friend, Weld Bond Glue</div>
             
@@ -263,7 +263,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 1 */}
           <div className=" flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>New Walls Bleed, 2025</div>
+            <div className="font-style: italic">New Walls Bleed, 2025</div>
             <div>Upcycled Wood</div>
             <div className="group relative mt-auto">
             <Image
@@ -290,7 +290,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 2 */}
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Conceived and Unraveled, 2025</div>
+            <div className="font-style: italic">Conceived and Unraveled, 2025</div>
             <div>Plywood, wooden dowels, wood glue, LED spotlight</div>
             
             <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
@@ -314,7 +314,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 3 */}
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>the world we live in, 2025</div>
+            <div className="font-style: italic">the world we live in, 2025</div>
             <div>Plywood, acrylic tubing, wood glue, LED lighting</div>
             
             <div className="group relative mt-auto">
@@ -341,7 +341,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 4 */}
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Femme and Phallus (Form Study), 2024</div>
+            <div className="font-style: italic">Femme and Phallus (Form Study), 2024</div>
             <div>Cedar, Aromatic Cedar, Walnut, Pine, Basswood, Cherry</div>
             <div className="group relative mt-auto">
             <Image
@@ -361,7 +361,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 5 */}
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Turbulence and Traction, 2024</div>
+            <div className="font-style: italic">Turbulence and Traction, 2024</div>
             <div>Up-cycled wood, glue, nails</div>
             <div className="group relative mt-auto">
             <Image
@@ -383,7 +383,7 @@ Friend, Weld Bond Glue</div>
           {/* Artwork 6 */}
           <div className="flex flex-col h-full tracking-wide">
             <div className="font-medium">Evan Sagman</div>
-            <div>Strain, Equilibrium, 2024</div>
+            <div className="font-style: italic">Strain, Equilibrium, 2024</div>
             <div>Upcycled Plywood, Nails, Spray Paint</div>
             
             <div className="group relative mt-auto">

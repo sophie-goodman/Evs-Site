@@ -14,7 +14,7 @@ export default function Home() {
         <nav className="flex justify-around md:space-x-12 w-full text-[6vw] md:text-[3vw] text-black">
           <Link href="/CV" className="hover:underline">CV</Link>
           <Link href="/about" className="hover:underline">ABOUT</Link>
-          <Link href="/projects" className="hover:underline">PROJECTS</Link>
+          <Link href="/portfolio" className="hover:underline">PORTFOLIO</Link>
         </nav>
 
         {/* NAME & CATEGORIES */}
@@ -26,8 +26,6 @@ export default function Home() {
           <div className="text-[4vw] md:text-[1.2vw] leading-relaxed tracking-wide">
             <div>INSTALLATION</div>
             <div>SCULPTURE</div>
-            <div>PAINTING</div>
-            <div>DRAWING</div>
           </div>
         </div>
         </div>
