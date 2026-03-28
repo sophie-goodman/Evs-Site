@@ -19,21 +19,31 @@ export default function Home() {
 
         {/* NAME & CATEGORIES */}
         <div className="flex flex-col items-center text-center mt-16 md:mt-32">
-          <div classname='flex flex-col items-center text-center mt-16 md:mt-32'>
           <h1 className="text-[#C61D15] text-[10vw] md:text-[5vw] font-semibold mb-4">
             EVAN SAGMAN
           </h1>
-          <div className="text-[4vw] md:text-[1.2vw] leading-relaxed tracking-wide">
+          <div className="text-xs sm:text-sm md:text-xs lg:text-sm leading-relaxed tracking-wide text-neutral-600 font-light">
             <div>INSTALLATION</div>
             <div>SCULPTURE</div>
           </div>
         </div>
-        </div>
 
         {/* CONTACT INFO (desktop bottom) */}
         <div className="hidden md:block md:mt-25 md:ml-[-1rem] text-sm text-gray-700">
-          <div>@truckerskiss</div>
-          <div>evanlwsgn@gmail.com</div>
+          <Link
+            href="https://www.instagram.com/truckerskiss/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block hover:underline"
+          >
+            @truckerskiss
+          </Link>
+          <a
+            href="mailto:evanlwsgn@gmail.com"
+            className="mt-1 block text-inherit hover:underline"
+          >
+            evanlwsgn@gmail.com
+          </a>
         </div>
       </div>
 
@@ -50,8 +60,20 @@ export default function Home() {
 
       {/* CONTACT INFO (mobile bottom) */}
       <div className="block md:hidden text-center mt-6 mb-4 text-sm text-gray-700">
-        <div>@truckerskiss</div>
-        <div>evanlwsgn@gmail.com</div>
+        <Link
+          href="https://www.instagram.com/truckerskiss/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          @truckerskiss
+        </Link>
+        <a
+          href="mailto:evanlwsgn@gmail.com"
+          className="mt-1 block text-inherit hover:underline"
+        >
+          evanlwsgn@gmail.com
+        </a>
       </div>
     </main>
   );

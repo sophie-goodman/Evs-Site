@@ -80,9 +80,21 @@ export default function about() {
       </section>
 
 
-      <div className="md:fixed md:bottom-1 md:left-2 text-sm text-left px-4 mt-10 md:mt-0">
-        <div className="insta">@truckerskiss</div>
-        <div className="email">evanlwsgn@gmail.com</div>
+      <div className="md:fixed md:bottom-3 md:left-2 text-sm text-left px-4 mt-10 md:mt-0 pb-8 md:pb-0">
+        <Link
+          href="https://www.instagram.com/truckerskiss/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="insta mb-2 hover:underline"
+        >
+          @truckerskiss
+        </Link>
+        <a
+          href="mailto:evanlwsgn@gmail.com"
+          className="email block hover:underline"
+        >
+          evanlwsgn@gmail.com
+        </a>
       </div>
 
     </main>

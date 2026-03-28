@@ -41,219 +41,233 @@ export default function Portfolio() {
           
           {/* Artwork 1 */}
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 8), 2025</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 8, self).jpeg"
               alt="Intimacy 8"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 7), 2025</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 7.JPG"
               alt="Intimacy 7"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 6), 2025</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 6.JPG"
               alt="Intimacy 6"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 5), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 5).JPG"
               alt="Intimacy 5"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 4), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 4).JPG"
               alt="Intimacy 4"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Side 1 (Cope through prayer), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/side 1(cope through prayer).JPG"
               alt="Side 1 (cope through prayer)"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Side 2 (Who hears them), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/DSCN2080.JPG"
               alt="Side 2 (Who hears them)"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 3), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled (Intimacy 3, Smoker).JPG"
               alt="Intimacy 3"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 2), 2024</div>
             <div>Steel Wire, Steel Sheet, Steel Tube</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/Untitled Intimacy (2).jpeg"
               alt="Intimacy 2"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
           
           
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Untitled (Intimacy 1), 2024</div>
             <div>Steel Wire</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/UntitiledIntimacy (1).jpeg"
               alt="Intimacy 1"
               width={200}
               height={300}
-              className="w-full h-auto object-cover mt-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
           </div>
 
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic"> Remnants (Accumulation 1, Twigs Painkillers From April), 2025</div>
             <div>Found Plywood, White Wall Paint, Buprenorphine Syringes, Buprenorphine Residues, Weld Bond Glue</div>
             
-            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            </div>
+            <div className="group relative shrink-0 w-full transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
             src="/assets/Remnants (Accumulation 1, Twig's Painkillers From April).jpeg"
               alt="Remnants 1"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto"
+              className="w-full h-auto object-cover"
             />
               </div>
           </div>
 
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Remnants (Accumulation 2, Cyclical, Bound, Repeating, Simultaneous Spiral), 2025</div>
             <div>Floral wire, Acrylic Ink, Water, Recycled Cardboard, Tape </div>
             
-            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            </div>
+            <div className="group relative shrink-0 w-full transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
             src="/assets/Remnants (Accumulation 2).jpeg"
               alt="Remnants 2"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto"
+              className="w-full h-auto object-cover"
             />
               </div>
           </div>
 
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Remnants (Accumulation 3, the more you say it the more they&#39;ll believe you) , 2025</div>
             <div>Found Plywood, Indelible Ink, Staple</div>
             
-            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            </div>
+            <div className="group relative shrink-0 w-full transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
             src="/assets/Remnants (Accumulation 3).jpeg"
               alt="Remnants 3"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto"
+              className="w-full h-auto object-cover"
             />
               </div>
           </div>
 
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Remnants (Accumulation 4, textures of miscommunication), 2025</div>
             <div>Found Particle Board, Deteriorating Inner Lining Of A Harley Davidson Rain Jacket Given As A Gift From A Now Estranged 
 Friend, Weld Bond Glue</div>
             
-            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            </div>
+            <div className="group relative shrink-0 w-full transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
             src="/assets/Remnants (Accumulation 4).jpeg"
               alt="Remnants 3"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto"
+              className="w-full h-auto object-cover"
             />
               </div>
           </div>
@@ -261,17 +275,18 @@ Friend, Weld Bond Glue</div>
 
           
           {/* Artwork 1 */}
-          <div className=" flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className=" flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">New Walls Bleed, 2025</div>
             <div>Upcycled Wood</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/IMG_0282.jpeg"
               alt="New Walls Bleed"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
 
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
@@ -288,18 +303,19 @@ Friend, Weld Bond Glue</div>
           </div>
 
           {/* Artwork 2 */}
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Conceived and Unraveled, 2025</div>
             <div>Plywood, wooden dowels, wood glue, LED spotlight</div>
             
-            <div className="group relative mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm">
+            </div>
+            <div className="group relative shrink-0 w-full transition duration-500 ease-in-out group-hover:blur-sm">
             <Image
             src="/assets/CUMAIN1.png"
               alt="Conceived and Unraveled"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
 
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
@@ -312,18 +328,19 @@ Friend, Weld Bond Glue</div>
           </div>
 
           {/* Artwork 3 */}
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">the world we live in, 2025</div>
             <div>Plywood, acrylic tubing, wood glue, LED lighting</div>
             
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/theworldwelivein.jpeg"
               alt="the world we live in"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
@@ -339,17 +356,18 @@ Friend, Weld Bond Glue</div>
           </div>
 
           {/* Artwork 4 */}
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Femme and Phallus (Form Study), 2024</div>
             <div>Cedar, Aromatic Cedar, Walnut, Pine, Basswood, Cherry</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/FPMAIN.jpeg"
               alt="Femme and Phallus"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
 
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
@@ -359,17 +377,18 @@ Friend, Weld Bond Glue</div>
             </div>
 
           {/* Artwork 5 */}
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Turbulence and Traction, 2024</div>
             <div>Up-cycled wood, glue, nails</div>
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/TTMAIN.jpeg"
               alt="Turbulence and Traction"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
             <div className="absolute inset-0 bg-opacity-90 bg-white/30 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
@@ -381,18 +400,19 @@ Friend, Weld Bond Glue</div>
 
 
           {/* Artwork 6 */}
-          <div className="flex flex-col h-full tracking-wide">
-            <div className="font-medium">Evan Sagman</div>
+          <div className="flex flex-col tracking-wide">
+            <div className="mb-2 flex flex-col gap-0.5 shrink-0">
             <div className="font-style: italic">Strain, Equilibrium, 2024</div>
             <div>Upcycled Plywood, Nails, Spray Paint</div>
             
-            <div className="group relative mt-auto">
+            </div>
+            <div className="group relative shrink-0 w-full">
             <Image
               src="/assets/IMG_6939.jpeg"
               alt="Strain, Equilibrium"
               width={400}
               height={600}
-              className="w-full h-auto object-cover mt-auto mt-auto transition duration-500 ease-in-out group-hover:blur-sm"
+              className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:blur-sm"
             />
             <div className="absolute inset-0 bg-opacity-20 bg-white/40 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex items-center justify-center text-center text-black px-4 text-sm">
 
