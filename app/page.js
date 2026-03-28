@@ -19,12 +19,11 @@ export default function Home() {
 
         {/* NAME & CATEGORIES */}
         <div className="flex flex-col items-center text-center mt-16 md:mt-32">
-          <h1 className="text-[#C61D15] text-[10vw] md:text-[5vw] font-semibold mb-4">
+          <Link href="/about" className="text-[#C61D15] text-[10vw] md:text-[5vw] font-semibold mb-4">
             EVAN SAGMAN
-          </h1>
+          </Link>
           <div className="text-xs sm:text-sm md:text-xs lg:text-sm leading-relaxed tracking-wide text-neutral-600 font-light">
-            <div>INSTALLATION</div>
-            <div>SCULPTURE</div>
+          <Link href="/portfolio">INTERDISCIPLINARY ART</Link>
           </div>
         </div>
 

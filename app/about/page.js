@@ -25,58 +25,35 @@ export default function about() {
         </h1>
       </header>
 
-      {/* MAIN CONTENT SECTION */}
-      <section className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-20 px-6 md:px-20 mt-16 md:mt-24 relative">
-        {/* LEFT IMAGE */}
-        <div className="relative z-[10] md:-rotate-2 md:-translate-y-10">
+      {/* Mobile: text above image. md+: text left, image right; text vertically centered to image */}
+      <section className="mx-auto mb-12 mt-8 flex max-w-5xl flex-col items-center gap-3 px-4 md:mb-16 md:mt-10 md:flex-row md:items-center md:gap-5 md:px-6 lg:px-8">
+        <div className="w-full text-center text-sm font-light leading-snug md:min-h-0 md:min-w-0 md:flex-1 md:text-left md:text-[0.9375rem] md:leading-snug">
+          <p>
+            Evan Sagman (they/them) is a Toronto based interdisciplinary artist and curator.
+            Their work focuses on themes relating to the body, love, intimacy, sexuality,
+            mortality, decay and duality. Working primarily in metal, wood, and experimental
+            mediums, they create bodily forms that serve as portraits of the intangible.
+          </p>
+          <p className="mt-2 md:mt-2">
+          "Intimacy is a lens through which to view all things. The creation of the universe 
+coincides with the advent of intimacy, as it itself was an intimate act. I utilize 
+interdisciplinary art practices to analyze human relations, making tangible the transient 
+moments that wash over us. It is in the magic of contradiction that truth emerges. The works 
+themselves exist in a state of flux, attaining a fluid completion when they are interacted 
+with in physical space"
+          </p>
+        </div>
+
+        <div className="relative z-10 w-full shrink-0 md:max-w-[min(100%,22rem)] lg:max-w-sm">
           <Image
             src="/assets/thumbnail_IMG_3364.jpg"
-            alt="Left Image"
+            alt="Evan Sagman"
             width={600}
             height={500}
-            className="object-cover shadow-lg"
+            className="h-auto w-full object-cover shadow-lg"
+            sizes="(max-width: 768px) 100vw, 22rem"
           />
         </div>
-
-        {/* TEXT BLOCK */}
-        <div className="text-center md:text-left text-lg md:text-2xl font-light space-y-2 leading-snug">
-          <div>QUEER</div>
-          <div>TORONTO BASED</div>
-          <div>MULTIMEDIA</div>
-          <div className="text-[#C61D15] font-medium">ARTIST</div>
-          <div className="pt-4">
-            CREATING <span className="text-[#C61D15] font-medium">ART</span> THAT CENTERS AROUND <br />
-            THEMES OF INTIMACY, SEXUALITY, AND MORTALITY
-          </div>
-        </div>
-
-        {/* RIGHT IMAGE */}
-        <div className="relative z-[20] md:rotate-3 md:-translate-y-24 md:-ml-16">
-          <Image
-            src="/assets/thumbnail_IMG_3365.jpg"
-            alt="Right Image"
-            width={400}
-            height={300}
-            className="object-cover shadow-lg"
-          />
-        </div>
-      </section>
-
-      {/* ARTIST STATEMENT */}
-      <section className="max-w-4xl mx-auto text-center md:text-left px-6 md:px-0 mt-16 mb-20 text-base md:text-lg leading-relaxed font-light">
-        <p>
-          Evan Sagman (they/them) is a Toronto based interdisciplinary artist and curator.
-          Their work focuses on themes relating to the body, love, intimacy, sexuality,
-          mortality, decay and duality. Working primarily in metal, wood, and experimental
-          mediums, they create bodily forms that serve as portraits of the intangible.
-        </p>
-        <p className="mt-4">
-          Fascinated by the way intimacy manifests in everyday life, and how it shapes our
-          mode of being, creating powerful moments that distort time and space, their
-          practice embodies these social and emotional processes. Evan curates for and
-          exhibits in local galleries, also initiating guerrilla-style exhibitions,
-          continually expanding both their creative and curatorial practices.
-        </p>
       </section>
 
 

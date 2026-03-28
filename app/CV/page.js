@@ -101,6 +101,24 @@ export default function CV() {
 
         </div>
       </div>
+      <div className="mt-12 text-sm text-left px-6 md:px-12 pb-10">
+        <Link
+          href="https://www.instagram.com/truckerskiss/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="insta mb-2 hover:underline"
+        >
+          @truckerskiss
+        </Link>
+        <a
+          href="mailto:evanlwsgn@gmail.com"
+          className="email block hover:underline"
+        >
+          evanlwsgn@gmail.com
+        </a>
+      </div>
+
+
     </main>
   );
 }

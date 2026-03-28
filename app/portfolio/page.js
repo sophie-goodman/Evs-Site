@@ -37,7 +37,7 @@ export default function Portfolio() {
       {/* ARTWORK GRID */}
 
       <section className="w-full flex justify-center mt-10 mb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl px-6 font-thin text-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-end gap-8 max-w-7xl px-6 font-thin text-sm">
           
           {/* Artwork 1 */}
 
@@ -426,6 +426,24 @@ Friend, Weld Bond Glue</div>
 
         </div>
       </section>
+      <div className="mt-12 text-sm text-left px-6 md:px-12 pb-10">
+        <Link
+          href="https://www.instagram.com/truckerskiss/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="insta mb-2 hover:underline"
+        >
+          @truckerskiss
+        </Link>
+        <a
+          href="mailto:evanlwsgn@gmail.com"
+          className="email block hover:underline"
+        >
+          evanlwsgn@gmail.com
+        </a>
+      </div>
+
+
     </main>
   );
 }
