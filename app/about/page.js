@@ -35,12 +35,12 @@ export default function about() {
             mediums, they create bodily forms that serve as portraits of the intangible.
           </p>
           <p className="mt-2 md:mt-2">
-          "Intimacy is a lens through which to view all things. The creation of the universe 
-coincides with the advent of intimacy, as it itself was an intimate act. I utilize 
-interdisciplinary art practices to analyze human relations, making tangible the transient 
-moments that wash over us. It is in the magic of contradiction that truth emerges. The works 
-themselves exist in a state of flux, attaining a fluid completion when they are interacted 
-with in physical space"
+            &ldquo;Intimacy is a lens through which to view all things. The creation of the universe
+            coincides with the advent of intimacy, as it itself was an intimate act. I utilize
+            interdisciplinary art practices to analyze human relations, making tangible the transient
+            moments that wash over us. It is in the magic of contradiction that truth emerges. The works
+            themselves exist in a state of flux, attaining a fluid completion when they are interacted
+            with in physical space&rdquo;
           </p>
         </div>
 
